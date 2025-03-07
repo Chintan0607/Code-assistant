@@ -5,7 +5,7 @@ import gradio as gr
 # Set the API URL for Ollama (Make sure Ollama is running)
 url = "http://localhost:11434/api/generate"
 
-# Headers for the API request
+#### Headers for the API request
 headers = {
     'Content-Type': 'application/json'
 }
