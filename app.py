@@ -42,7 +42,7 @@ def generate_response(prompt):
     except Exception as e:
         return f"Request failed: {str(e)}"
 
-# Define Gradio UI with a Submit Button
+## Define Gradio UI with a Submit Button
 with gr.Blocks() as interface:
     gr.Markdown("# 🤖 CodeLlama AI Chatbot")
     
