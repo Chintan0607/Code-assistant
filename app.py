@@ -5,7 +5,7 @@ import gradio as gr
 # Set the API URL for Ollama (Make sure Ollama is running)
 url = "http://localhost:11434/api/generate"
 
-#### Headers for the API request
+## Headers for the API request
 headers = {
     'Content-Type': 'application/json'
 }
@@ -27,7 +27,7 @@ def generate_response(prompt):
     }
 
     try:
-        # Send request to Ollama API
+        ## Send request to Ollama API
         response = requests.post(url, headers=headers, data=json.dumps(data))
         print("Raw API Response:", response.text)  # Debugging
 
