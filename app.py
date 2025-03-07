@@ -10,7 +10,7 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-# Store chat history
+## Store chat history
 history = []
 
 def generate_response(prompt):
