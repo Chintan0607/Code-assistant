@@ -19,7 +19,7 @@ def generate_response(prompt):
     history.append(prompt)  # Append new prompt to history
     final_prompt = "\n".join(history)  # Combine all history into a single prompt
 
-    # Data payload for Ollama API
+    ### Data payload for Ollama API
     data = {
         "model": "codellama",
         "prompt": final_prompt,
